@@ -1,0 +1,6 @@
+{
+  "name": "MKSOCKS | 미강양말",
+  "description": "30년 제조 노하우와 엄선된 국산 원자재를 바탕으로 완성하는 프리미엄 대한민국 양말 제조 MKSOCKS",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
