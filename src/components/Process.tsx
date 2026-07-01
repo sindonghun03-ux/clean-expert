@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { ChevronRight, FileText, CheckCircle2, Sliders, Play, Archive, HelpCircle } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { useLanguage } from "../LanguageContext";
+import { getAssetUrl } from "../utils";
 
 export default function Process() {
   const [activeStep, setActiveStep] = useState<number>(1);
@@ -153,7 +154,7 @@ export default function Process() {
                     <div className="lg:col-span-5 relative">
                       <div className="relative rounded-xl overflow-hidden shadow-md aspect-4/3 lg:aspect-square">
                         <img
-                          src={step.image}
+                          src={getAssetUrl(step.image)}
                           alt={step.title}
                           referrerPolicy="no-referrer"
                           className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"

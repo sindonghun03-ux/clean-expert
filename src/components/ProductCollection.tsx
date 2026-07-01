@@ -3,6 +3,7 @@ import { ProductCategory, ProductItem } from "../types";
 import { Filter, Scale, Check, Cpu, Sparkles, X, Info } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { useLanguage } from "../LanguageContext";
+import { getAssetUrl } from "../utils";
 
 export default function ProductCollection() {
   const [selectedCategory, setSelectedCategory] = useState<ProductCategory | "ALL">("ALL");
@@ -186,7 +187,7 @@ export default function ProductCollection() {
                   {/* Photo area with active category overlay */}
                   <div className="relative h-64 w-full overflow-hidden">
                     <img
-                      src={product.image}
+                      src={getAssetUrl(product.image)}
                       alt={product.name}
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -274,7 +275,7 @@ export default function ProductCollection() {
                 {/* Left Side: Photo panel with category layout */}
                 <div className="relative w-full lg:w-1/2 h-72 lg:h-auto min-h-[300px] lg:min-h-[500px]">
                   <img
-                    src={selectedProduct.image}
+                    src={getAssetUrl(selectedProduct.image)}
                     alt={selectedProduct.name}
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover"
