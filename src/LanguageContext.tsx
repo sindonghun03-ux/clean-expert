@@ -337,7 +337,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         description: language === "en"
           ? "Dress and long-length socks are essential items that guard a businessman's pride and class. Sourced from South Korea's premium yarn, it provides a very soft feel on the skin and guarantees outstanding elasticity that does not easily stretch."
           : "정장 · 장목 양말은 비즈니스맨의 자존심과 품격을 지켜주는 필수 아이템입니다. 국산 최고급 원사를 사용하여 피부에 닿는 촉감이 매우 부드러우며, 쉽게 늘어나지 않는 뛰어난 신축성을 약속합니다.",
-        image: "/src/assets/images/mksocks_business_1782872955566.jpg"
+        image: "./images/mksocks_business_1782872955566.jpg"
       },
       {
         id: "prod-2",
@@ -366,7 +366,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         description: language === "en"
           ? "Ankle socks are designed for daily comfort. Using 100% premium South Korean combed cotton as the core raw material, they excel at sweat absorption and boast exceptional utility for light exercise or daily life."
           : "발목 양말은 일상생활의 편안함을 위해 탄생한 제품입니다. 엄선된 100% 국산 면 원사를 주원료로 하여 땀 흡수가 뛰어나며 가벼운 운동이나 데일리 라이프 어디에나 뛰어난 실용성을 자랑합니다.",
-        image: "/src/assets/images/mksocks_ankle_1782872970167.jpg"
+        image: "./images/mksocks_ankle_1782872970167.jpg"
       },
       {
         id: "prod-3",
@@ -396,7 +396,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         description: language === "en"
           ? "Original character and fashion socks that serve as creative fashion accents. Incorporating 144 needle computer embroidery technology, we embed delicate design details into the socks, completing a sensual styling with sophisticated color mixtures."
           : "패션의 포인트가 되는 독창적인 캐릭터 및 패션 양말입니다. 144침의 정교한 컴퓨터 자수 기술로 섬세한 디자인 디테일을 양말에 녹여냈으며, 세련된 컬러 믹스로 감각적인 스타일링을 완성합니다.",
-        image: "/src/assets/images/mksocks_fashion_1782872982775.jpg"
+        image: "./images/mksocks_fashion_1782872982775.jpg"
       },
       {
         id: "prod-4",
@@ -425,7 +425,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         description: language === "en"
           ? "No-show socks representing MKSOCKS' unique engineering. To completely solve the common issue of heels slipping off when walking or running, we applied soft high-elasticity 3D weaving and high-adhesion anti-slip silicone to the rear."
           : "MKSOCKS의 독보적인 기술력이 담긴 페이크삭스입니다. 착용 후 걷거나 달릴 때 뒤꿈치가 쉽게 벗겨지는 현상을 완벽히 해결하기 위해 후면에 부드러운 고탄성 입체 가공과 미끄럼 방지 실리콘을 적용하였습니다.",
-        image: "/src/assets/images/mksocks_fake_socks_1782872994457.jpg"
+        image: "./images/mksocks_fake_socks_1782872994457.jpg"
       },
       {
         id: "prod-5",
@@ -454,7 +454,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         description: language === "en"
           ? "A premium glitter line born from the precise combination of special metallic covering yarns. Unlike cheap metallic threads that cause skin irritation, we use MKSOCKS' custom metallic yarns that are free of prickliness, highly elastic, and elegant."
           : "메탈릭 특수 가공 원사를 정밀 조합하여 탄생한 프리미엄 글리터 라인입니다. 피부 자극을 유발하는 일반 금속사와 달리, MKSOCKS만의 특수가공 원사를 사용해 까슬거림이 전혀 없고 매우 신축성 있으며 스타일리시합니다.",
-        image: "/src/assets/images/mksocks_glitter_1782873012717.jpg"
+        image: "./images/mksocks_glitter_1782873012717.jpg"
       },
       {
         id: "prod-6",
@@ -483,7 +483,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         description: language === "en"
           ? "Functional knee-high socks that smoothly shape the calf outline while blocking cold wind. Sourced with outstandingly elastic local specialized yarns, it meticulously adjusts pressure above and below the knee, maintaining solid tightness over long usage."
           : "종아리 실루엣을 매끄럽게 가꿔주면서 차가운 바람을 막아주는 기능성 니삭스입니다. 신축성이 탁월한 국산 특수 원사를 활용하여 무릎 위아래 압박감을 세밀하게 조정하였으며, 장시간 활동에도 늘어짐 없는 견고함을 선사합니다.",
-        image: "/src/assets/images/mksocks_knee_1782873024015.jpg"
+        image: "./images/mksocks_knee_1782873024015.jpg"
       },
       {
         id: "prod-7",
@@ -512,7 +512,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         description: language === "en"
           ? "High-performance double-cushion sports socks engineered for athletic experts. Sourced with air-trapping double cushion layers across the entire sole, they absorb impacts transmitted to ankles and knees, optimized for rough outdoor environments."
           : "스포츠 전문가들을 위해 설계된 고기능성 파일 스포츠 양말입니다. 바닥 전면에 공기층을 머금은 이중 쿠션 파일 조직을 설계해 발목과 무릎으로 전달되는 충격을 탁월하게 흡수하며 아웃도어 환경에 최적화되어 있습니다.",
-        image: "/src/assets/images/mksocks_sport_1782873037735.jpg"
+        image: "./images/mksocks_sport_1782873037735.jpg"
       },
       {
         id: "prod-8",
@@ -542,7 +542,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         description: language === "en"
           ? "Premium foot covers keeping only your toes and sole fresh and thin. Unlike low-cost imported products focusing merely on price, we utilize computerized precision machines to distribute tension evenly, essential for low-cut shoes."
           : "발끝과 바닥만을 쾌적하고 얇게 보좌하는 고급 풋커버 양말입니다. 단가 위주의 중국산 저가형 제품과 달리 정밀 컴퓨터 기계를 활용해 양말 전면의 장력을 고르게 분배하였으며, 쉽게 벗겨지지 않아 발등이 드러나는 구두 착용 시 필수적입니다.",
-        image: "/src/assets/images/mksocks_foot_cover_1782873049409.jpg"
+        image: "./images/mksocks_foot_cover_1782873049409.jpg"
       }
     ];
   };
@@ -559,7 +559,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         details: language === "en"
           ? "We accept designs and spec requirements (needle count, raw yarn types) via email. Professional designers analyze production feasibility and propose optimal product blueprints."
           : "클라이언트가 희망하는 스펙(침수, 원사 등)이나 도안을 이메일로 접수하며, 전문 디자이너가 실무 제작 타당성을 검토하고 최적의 설계를 제안합니다.",
-        image: "/src/assets/images/mksocks_consultation_1782875978662.jpg"
+        image: "./images/mksocks_consultation_1782875978662.jpg"
       },
       {
         id: 2,
@@ -571,7 +571,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         details: language === "en"
           ? "Once design matching is complete, we formalize the contract and order premium domestic materials including combed cotton, functional nylon, and spandex, ensuring product integrity."
           : "디자인 매칭이 완료되면 정식 계약을 완료하고, 코마사, 나일론, 스판 등 용도에 최적화된 국산 프리미엄 고품질 원사를 발주하여 정합성을 보장합니다.",
-        image: "/src/assets/images/mksocks_contract_1782875996390.jpg"
+        image: "./images/mksocks_contract_1782875996390.jpg"
       },
       {
         id: 3,
@@ -583,7 +583,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         details: language === "en"
           ? "The meticulous process of aligning colors and functional elastane (spandex) threads onto specific machine feeds. Fine tension control is critical to achieving high-density weaving."
           : "편직기 마디에 각 컬러와 기능성 원사(탄성 스판 등)를 꼼꼼하게 실 공급 패스에 연동하는 공정입니다. 고밀도 정합성을 위한 장력 조율이 핵심입니다.",
-        image: "/src/assets/images/mksocks_yarn_setup_1782876204196.jpg"
+        image: "./images/mksocks_yarn_setup_1782876204196.jpg"
       },
       {
         id: 4,
@@ -595,7 +595,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         details: language === "en"
           ? "A fleet of 25 automated precision knitting machines runs 24/7. Core details, such as 3D heel forming and toe linking, are seamlessly automated inside our Korean headquarters."
           : "자동화 편직 설비 25대가 쉴 틈 없이 초고밀도 편직을 수행합니다. 뒤꿈치 입체 코딩, 발가락 이음부 링킹 공정 등 디테일이 자동 완성되는 혁신적인 본사 공정입니다.",
-        image: "/src/assets/images/mksocks_factory_floor_1782873856196.jpg"
+        image: "./images/mksocks_factory_floor_1782873856196.jpg"
       },
       {
         id: 5,
@@ -607,7 +607,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
         details: language === "en"
           ? "We conduct rigorous manual inspections on thread control, seam integrity, and elastic tension. Approved socks are fitted with custom brand tags or luxury gift boxes before fast shipping."
           : "실밥 제어 상태, 올 풀림 현상 여부 등을 엄격하게 정밀 전수 검사합니다. 통과된 프리미엄 양말에 브랜드 맞춤 포장택(Tag) 또는 고급 기프트 박스를 결속하여 고객사에게 최상으로 배송합니다.",
-        image: "/src/assets/images/mksocks_gift_packaging_1782873870415.jpg"
+        image: "./images/mksocks_gift_packaging_1782873870415.jpg"
       }
     ];
   };

@@ -149,7 +149,7 @@ export default function OemInquiry() {
             className="relative rounded-2xl overflow-hidden aspect-video shadow-lg"
           >
             <img
-              src="/src/assets/images/mksocks_factory_floor_1782873856196.jpg"
+              src="./images/mksocks_factory_floor_1782873856196.jpg"
               alt="MKSOCKS Factory Machine Floor"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover"
